@@ -1,0 +1,67 @@
+.carousel-item img{
+    height: 70vh;
+    width: 80%;
+    object-fit: contain;
+}
+
+.navbar{
+    background:bisque;
+}
+
+.carousel-item{
+
+background-color: darkgrey;
+}
+
+h1 {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #cccccc;
+}
+
+body{
+     background: lightgray;
+    padding-top:80px;
+}
+.accordion-body{
+    text-align: left;
+}
+
+#gallery1 img{
+    height:250px;
+    width:100%;
+    object-fit:cover;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+#gallery1 img:hover{
+    transform:scale(1.05);
+}
+
+.footer{
+    background-color:#212529;
+    color:white;
+    text-align:center;
+    padding:40px 0;
+    width:100%;
+}
+
