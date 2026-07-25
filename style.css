@@ -1,3 +1,8 @@
+/* Hero Carousel Overhaul */
+.carousel-item {
+    height: 85vh;
+    background-color: #000;
+}
 .carousel-item img {
     height: 100%;
     width: 100%;
