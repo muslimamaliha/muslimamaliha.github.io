@@ -119,9 +119,16 @@ hr {
 }
 
 /* Footer Styling */
-.footer {
-    background-color: #1a1d20;
-    color: #adb5bd;
+.footer{
+    width:100%;
+    background:#1a1d20;
+    color:#adb5bd;
+    padding:40px 0;
+    text-align:center;
+}
+
+.footer hr{
+    border-color:#555;
 }
 
 .social-links a {
