@@ -45,20 +45,16 @@ body {
 }
 
 /* Hero Carousel Overhaul */
-.carousel-item{
-    position:relative;
+.carousel-item {
+    height: 85vh;
+    background-color: #000;
 }
 
-.carousel-item::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:rgba(0,0,0,.35);
-    z-index:1;
-}
-
-.carousel-caption{
-    z-index:2;
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.6;
 }
 
 /* Section Styling */
@@ -119,16 +115,9 @@ hr {
 }
 
 /* Footer Styling */
-.footer{
-    width:100%;
-    background:#1a1d20;
-    color:#adb5bd;
-    padding:40px 0;
-    text-align:center;
-}
-
-.footer hr{
-    border-color:#555;
+.footer {
+    background-color: #1a1d20;
+    color: #adb5bd;
 }
 
 .social-links a {
