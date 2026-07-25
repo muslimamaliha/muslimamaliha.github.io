@@ -10,12 +10,6 @@
     opacity: 0.6;
 }
 
-.protected-img{
-    -webkit-user-drag: none;
-    user-select: none;
-    pointer-events: auto;
-}
-
 .navbar{
     background:bisque;
 }
